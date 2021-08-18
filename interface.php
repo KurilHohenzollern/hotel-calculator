@@ -25,27 +25,8 @@ if(!empty($_POST)) {
 			break;
 	}
 }
-
-//echo "<pre>";
-//var_dump($model->filterIntervals('2021-06-01', '2021-06-09'));
-//die();
-
-
-
-//извлекаем и перебираем данные о комнате по классу
-/*$chunks = $model->getPrice($_POST['class']);
-foreach ($chunks as $chunk) : ?>
-
-	<form method="POST" action="interface.php">
-		<select name="class">
-			<option value="luxe">Люкс</option>
-			<option value="standart">Стандарт</option>
-			<option value="economy">Эконом</option>
-		</select>
-
-<?php
-endforeach;*/
 ?>
+	 
 <form method="POST" action="interface.php">
 <label for="limit">Въезд:</label>
 <input type="data" name="startTime" value="">
